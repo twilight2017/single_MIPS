@@ -1,0 +1,155 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 20388
+License: Customer
+
+Current time: 	Wed Jun 05 09:18:19 CST 2019
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1280x720
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 14 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	E:/Vivado/2018.1/tps/win64/jre
+Java executable location: 	E:/Vivado/2018.1/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	Admin
+User home directory: C:/Users/Admin
+User working directory: E:/single_MIPS
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: E:/Vivado
+HDI_APPROOT: E:/Vivado/2018.1
+RDI_DATADIR: E:/Vivado/2018.1/data
+RDI_BINDIR: E:/Vivado/2018.1/bin
+
+Vivado preferences file location: C:/Users/Admin/AppData/Roaming/Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: C:/Users/Admin/AppData/Roaming/Xilinx/Vivado/2018.1/
+Vivado layouts directory: C:/Users/Admin/AppData/Roaming/Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	E:/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	E:/single_MIPS/vivado.log
+Vivado journal file location: 	E:/single_MIPS/vivado.jou
+Engine tmp dir: 	E:/single_MIPS/.Xil/Vivado-20388-Lenovo-PC
+
+GUI allocated memory:	132 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 487 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// [GUI Memory]: 35 MB (+34177kb) [00:00:05]
+// [Engine Memory]: 332 MB (+196381kb) [00:00:05]
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 58 MB (+22126kb) [00:00:33]
+// [Engine Memory]: 487 MB (+145839kb) [00:00:33]
+// bv (ch):  Open Project : addNotify
+// Opening Vivado Project: E:\single_MIPS\single_MIPS.xpr. Version: Vivado v2018.1 
+// Tcl Message: open_project E:/single_MIPS/single_MIPS.xpr 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 487 MB. GUI used memory: 36 MB. Current time: 6/5/19 9:18:21 AM CST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project E:/single_MIPS/single_MIPS.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/2018.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 537 MB (+26842kb) [00:00:58]
+// HMemoryUtils.trashcanNow. Engine heap size: 554 MB. GUI used memory: 38 MB. Current time: 6/5/19 9:18:52 AM CST
+// Project name: single_MIPS; location: E:/single_MIPS; part: xc7a35tcsg324-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 706.137 ; gain = 39.254 
+dismissDialog("Open Project"); // bv (ch)
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking too long to process. Increasing delay to 3000 ms.
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// a (ch): Critical Messages: addNotify
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 590 MB (+26814kb) [00:01:15]
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 63 MB (+2725kb) [00:01:44]
+// Elapsed time: 35 seconds
+dismissDialog("Critical Messages"); // a (ch)
+maximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw (aE, ch)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // B (D, ch)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 4); // B (D, ch)
+// PAPropertyPanels.initPanels (ifu_tb.v) elapsed time: 0.9s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, ifu_tb (ifu_tb.v)]", 9, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, ifu_tb (ifu_tb.v)]", 9, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+// [GUI Memory]: 68 MB (+1744kb) [00:02:01]
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ch)
+// [GUI Memory]: 72 MB (+675kb) [00:05:06]
+// Elapsed time: 441 seconds
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ch)
+maximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw (aE, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, alu_tb (alu_tb.v)]", 5, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, alu_tb (alu_tb.v)]", 5, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+// [GUI Memory]: 77 MB (+723kb) [00:09:29]
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ch)
+// [GUI Memory]: 81 MB (+440kb) [00:09:56]
+// [GUI Memory]: 85 MB (+208kb) [00:25:57]
+// HMemoryUtils.trashcanNow. Engine heap size: 590 MB. GUI used memory: 39 MB. Current time: 6/5/19 9:48:52 AM CST
+// Elapsed time: 1634 seconds
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ch)
+maximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw (aE, ch)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CPU (CPU.v)]", 1); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CPU (CPU.v), datamem0 : DataMem (DataMem.v)]", 6, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CPU (CPU.v), datamem0 : DataMem (DataMem.v)]", 6, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectTab(RDIResource.PropertiesView_TABBED_PANE, (HResource) null, "Properties", 1); // i (c, ch)
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ch)
+// Elapsed time: 530 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true); // u (O, ch) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// A (ch): Elaborate Design: addNotify
+// 'dO' command handler elapsed time: 4 seconds
+dismissDialog("Elaborate Design"); // A (ch)
+// Elapsed time: 167 seconds
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 15); // u (O, ch)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 15); // u (O, ch)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 15); // u (O, ch)
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 15); // u (O, ch)
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12); // u (O, ch)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12); // u (O, ch)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 15, false); // u (O, ch)
+// A (ch): Elaborate Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bv (ch):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // A (ch)
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xc7a35tcsg324-1 Top: CPU 
+// [Engine Memory]: 625 MB (+6122kb) [00:49:21]
+// HMemoryUtils.trashcanNow. Engine heap size: 635 MB. GUI used memory: 39 MB. Current time: 6/5/19 10:07:07 AM CST
+// [Engine Memory]: 670 MB (+14259kb) [00:49:31]
+// Elapsed time: 170 seconds
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a (bv)
+selectButton("RDIResource.ProgressDialog_ARE_YOU_SURE_YOU_WANT_TO_CANCEL_Yes", "Yes"); // JButton (A, G)
+// Elapsed time: 207 seconds
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a (bv)
+// HMemoryUtils.trashcanNow. Engine heap size: 705 MB. GUI used memory: 38 MB. Current time: 6/5/19 10:13:07 AM CST
+// [Engine Memory]: 706 MB (+1923kb) [00:55:24]
+// [GUI Memory]: 90 MB (+775kb) [00:57:00]
+// Elapsed time: 125 seconds
+closeMainWindow("single_MIPS - [E:/single_MIPS/single_MIPS.xpr] - Vivado 2018.1"); // ch
+// HOptionPane Warning: 'A background task is running. Please wait until it completes to exit Vivado. If you choose to abort background task and exit immediately, you will lose all unsaved changes to project. (Background Task)'

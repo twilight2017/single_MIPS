@@ -1,0 +1,89 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Wed Jun 12 21:39:17 2019
+# Process ID: 11420
+# Current directory: E:/single_MIPS
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9828 E:\single_MIPS\single_MIPS.xpr
+# Log file: E:/single_MIPS/vivado.log
+# Journal file: E:/single_MIPS\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/single_MIPS/single_MIPS.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source datamem_tb.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top ctrl_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source ctrl_tb.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top alu_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top ALUCT [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source ALUCT.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top aluctrl_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source aluctrl_tb.tcl
+close_sim
+launch_simulation
+source aluctrl_tb.tcl
+close_sim
+launch_simulation
+source aluctrl_tb.tcl
+close_sim
+launch_simulation
+source aluctrl_tb.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top top_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source top_tb.tcl
+current_wave_config {Untitled 8}
+add_wave {{/top_tb/cpu0}} 
+current_wave_config {Untitled 8*}
+add_wave {{/top_tb/cpu0/rf0/file[0]}} 
+current_wave_config {Untitled 8*}
+add_wave {{/top_tb/cpu0/rf0/file[1]}} 
+current_wave_config {Untitled 8*}
+add_wave {{/top_tb/cpu0/rf0/file[2]}} 
+current_wave_config {Untitled 8*}
+add_wave {{/top_tb/cpu0/rf0/file[3]}} 
+save_wave_config {E:/single_MIPS/top_tb_behav.wcfg}
+add_files -fileset sim_1 -norecurse E:/single_MIPS/top_tb_behav.wcfg
+set_property xsim.view {E:/single_MIPS/top_tb_behav.wcfg E:/single_MIPS/top_behav.wcfg E:/single_MIPS/top_tb_behav.wcfg E:/single_MIPS/top_tb_behav.wcfg E:/single_MIPS/top_tb_behav.wcfg E:/single_MIPS/top_tb_behav.wcfg} [get_filesets sim_1]
+close_sim
+launch_simulation
+open_wave_config E:/single_MIPS/top_tb_behav.wcfg
+source top_tb.tcl
+save_wave_config {E:/single_MIPS/top_tb_behav.wcfg}
+close_sim
+current_sim simulation_7
+close_sim
+current_sim simulation_3

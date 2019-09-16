@@ -1,0 +1,52 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Tue Jun  4 15:58:09 2019
+# Process ID: 452
+# Current directory: E:/single_MIPS
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8488 E:\single_MIPS\single_MIPS.xpr
+# Log file: E:/single_MIPS/vivado.log
+# Journal file: E:/single_MIPS\vivado.jou
+#-----------------------------------------------------------
+start_gui
+oopen_project E:/single_MIPS/single_MIPS.xprupdate_compile_order -fileset sources_1
+
+launch_simulation
+open_wave_config E:/single_MIPS/top_tb_behav.wcfg
+source top_tb.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top rf_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+open_wave_config E:/single_MIPS/top_tb_behav.wcfg
+source rf_tb.tcl
+close_sim
+launch_simulation
+source rf_tb.tcl
+close_sim
+launch_simulation
+source rf_tb.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top alu_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source alu_tb.tcl
+close_sim
+launch_simulation
+source alu_tb.tcl
+close_sim
+launch_simulation
+source alu_tb.tcl
+close_sim
+current_sim simulation_4
+close_sim
+close_sim
