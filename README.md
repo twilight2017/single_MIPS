@@ -1,2 +1,4 @@
 # single_MIPS
-a single_mips realized by verilog
+用Verilog语言实现的单周期CPU。
+仔细读说明文档，拓展了两条指令。
+我把我写的实验报告分享上去了，里面有详细的讲解，仅供参考
